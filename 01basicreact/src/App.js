@@ -7,7 +7,7 @@ function App() {
   const [counter, setCounter]  = useState(15) // to porpogate the changes
 
   // let counter = 15;
-
+// Git coomit
   const addValue = () => {
     if (counter < 20)
     {
