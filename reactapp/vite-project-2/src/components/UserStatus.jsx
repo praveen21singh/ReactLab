@@ -1,14 +1,14 @@
 
-const UserStatus = ({loggedIn,isAdmin}) => {
+const UserStatus = (props) => {
   
-    if (loggedIn && isAdmin)
+    if (props.loggedIn && props.isAdmin)
     {
         return <h1>Welcome Admin!</h1>
     }
-    else if (loggedIn && isAdmin == false)
+    else if (props.loggedIn && props.isAdmin == false)
     {
         return <h1>Welcome User!</h1>
-    }
+    }  
 }
 
 export default UserStatus
