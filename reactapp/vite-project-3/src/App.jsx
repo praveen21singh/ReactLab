@@ -9,12 +9,12 @@ import IconComponent from './components/IconComponent';
 const App = () => {
 
   return (
-    <div style={{ position: "absolute", top: '20%', left: '40%', zIndex: 1, color: "black" }}>
+    <div style={{ position: "absolute", right: '100px', top: '100px', left: '100px', zIndex: 1, color: "black" }}>
    <h1>Inline Style Example</h1>
    
    <StyleCard/>
    <ProfileCard/>
-   <IconComponent/>
+   <IconComponent size='50px' color='gold'/>
      
     </div>
   )
