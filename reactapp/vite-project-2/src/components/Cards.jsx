@@ -1,7 +1,7 @@
 
-const Cards = (props) => {
+const Cards = ({children}) => {
   return (
-    <div>{props.children}</div>
+    <div>{children}</div>
   )
 }
 
