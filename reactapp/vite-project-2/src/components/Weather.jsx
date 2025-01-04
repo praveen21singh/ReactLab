@@ -6,7 +6,7 @@ const Weather = ({temp}) => {
         {
         return <h1>It's cold outside!🥶</h1>
         }
-    else if(temp > 15 && temp < 25)
+    else if(temp >= 15 && temp <= 25)
     {
         return <h1>It's nice outside!😎</h1>
     }
@@ -16,4 +16,4 @@ const Weather = ({temp}) => {
     }
 }
 
-export default Weather
+export default Weather;

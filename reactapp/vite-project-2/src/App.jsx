@@ -6,15 +6,15 @@ import UserStatus from './components/UserStatus';
 import Greeting from './components/Greeting';
 
 const App = () => {
+  const name = 'Praveen'
   return (
     
     <div style={{ position: "absolute", top: 30, left: 500, zIndex: 1, color: "black" }}>
     
    
-    
-    
+  
     <UserStatus loggedIn={true} isAdmin={true}/>
-    <Greeting timeOfDay={'afternoon'}/>
+    <Greeting timeOfDay={'afternoon'} message={'Hello ' +  name}/>
     <Weather temp = {16}/>
 
   
