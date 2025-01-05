@@ -14,7 +14,7 @@ const State = () => {
 
     return (
     <div>
-      <h1>useState React Hook Example</h1>
+      <h1>useState React Hook Example 1</h1>
       <h1 style={{marginLeft: '320px', paddingRight: '10rem'}}>{count}</h1>
       
       <GiFastBackwardButton onClick={decrement} size={70} style={{marginLeft: '200px', paddingRight: '10rem'}} />

@@ -1,11 +1,12 @@
 
 import State from './components/State'
+import Friends from './components/Friends'
 const App = () => {
 
   const styles =
   { 
     borderRadius: '2rem', 
-    backgroundColor:'cyan', 
+    backgroundColor:'lightgray', 
     position: "absolute", 
     right: '100px', 
     top: '100px', 
@@ -17,7 +18,8 @@ const App = () => {
 
   return (
     <div className='center' style={styles}>
-      <State />
+      {/* <State /> */}
+      <Friends />
       
     </div>
   )
