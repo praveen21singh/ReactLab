@@ -1,6 +1,8 @@
 
 import State from './components/State'
 import Friends from './components/Friends'
+import Movies from './components/Movies'
+import ObjectArrays from './components/ObjectArrays'
 const App = () => {
 
   const styles =
@@ -19,7 +21,9 @@ const App = () => {
   return (
     <div className='center' style={styles}>
       {/* <State /> */}
-      <Friends />
+      {/* <Friends /> */}
+      {/* <Movies/> */}
+      <ObjectArrays/>
       
     </div>
   )
